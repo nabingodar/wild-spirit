@@ -276,3 +276,185 @@ section:not(.hero){
     }
 
 }
+/* ==========================
+   Journey Timeline
+========================== */
+
+
+.journey-section{
+
+    padding:120px 0;
+
+    background:#ffffff;
+
+}
+
+
+
+.journey-title{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:3rem;
+
+}
+
+
+
+.timeline{
+
+    position:relative;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    top:0;
+
+    width:2px;
+
+    height:100%;
+
+    background:#a36a3c;
+
+    transform:translateX(-50%);
+
+}
+
+
+
+.timeline-item{
+
+    position:relative;
+
+    width:50%;
+
+    padding:30px;
+
+}
+
+
+
+.timeline-item:nth-child(odd){
+
+    left:0;
+
+    text-align:right;
+
+}
+
+
+
+.timeline-item:nth-child(even){
+
+    left:50%;
+
+}
+
+
+
+.timeline-dot{
+
+    position:absolute;
+
+    top:40px;
+
+    width:18px;
+
+    height:18px;
+
+    background:#a36a3c;
+
+    border-radius:50%;
+
+}
+
+
+
+.timeline-item:nth-child(odd) .timeline-dot{
+
+    right:-9px;
+
+}
+
+
+
+.timeline-item:nth-child(even) .timeline-dot{
+
+    left:-9px;
+
+}
+
+
+
+.timeline-content{
+
+    background:#f8f6f2;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+
+
+.timeline-content h3{
+
+    font-family:'Playfair Display',serif;
+
+    margin-bottom:15px;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    .timeline::before{
+
+        left:10px;
+
+    }
+
+
+    .timeline-item,
+    .timeline-item:nth-child(even){
+
+        width:100%;
+
+        left:0;
+
+        padding-left:45px;
+
+        text-align:left;
+
+    }
+
+
+    .timeline-item .timeline-dot,
+    .timeline-item:nth-child(odd) .timeline-dot{
+
+        left:1px;
+
+        right:auto;
+
+    }
+
+
+}
