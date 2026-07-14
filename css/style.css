@@ -20,67 +20,34 @@ body{
     line-height:1.8;
 }
 
-/* Navigation */
+/* ==========================
+   Navigation
+========================== */
 
-.navbar{
-
-    position:fixed;
-
-    top:0;
-
-    width:100%;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:20px 8%;
-
-    background:rgba(255,255,255,.75);
-
-    backdrop-filter:blur(14px);
-
-    z-index:999;
-
-    transition:.4s;
+.custom-navbar{
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    transition: 0.3s ease;
+    padding: 15px 0;
 }
 
 .logo{
-
-    font-size:28px;
-
-    font-family:'Playfair Display',serif;
-
-    font-weight:700;
-
-    letter-spacing:2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    letter-spacing: 2px;
 }
 
-nav ul{
-
-    list-style:none;
-
-    display:flex;
-
-    gap:35px;
+.navbar-nav .nav-link{
+    color: #ffffff !important;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
-nav a{
-
-    text-decoration:none;
-
-    color:#222;
-
-    font-weight:500;
-
-    transition:.3s;
-}
-
-nav a:hover{
-
-    color:#a36a3c;
+.navbar-nav .nav-link:hover{
+    color: #d6b37a !important;
 }
 
 /* Hero */
