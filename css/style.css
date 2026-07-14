@@ -163,11 +163,24 @@ section:not(.hero){
 
     padding:120px 10%;
 }
-.hero{
-    width:100%;
-    min-height:100vh;
-    display:flex !important;
-    justify-content:center !important;
-    align-items:center !important;
-    text-align:center !important;
+.hero {
+    min-height: 100vh !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("../images/hero.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.hero-content {
+    max-width: 850px !important;
+    color: white !important;
 }
