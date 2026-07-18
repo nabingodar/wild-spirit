@@ -1159,3 +1159,73 @@ grid-template-columns:1fr;
     margin-bottom:25px;
 
 }
+
+/* ==========================
+   Contact
+========================== */
+
+.contact-section{
+
+    padding:140px 0;
+
+    background:#f8f6f2;
+
+    text-align:center;
+
+}
+
+.contact-text{
+
+    max-width:700px;
+
+    margin:30px auto;
+
+    font-size:1.1rem;
+
+    line-height:1.9;
+
+    color:#666;
+
+}
+
+.contact-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+    margin-top:40px;
+
+}
+
+.contact-btn{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    background:#A36A3C;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:50px;
+
+    transition:.35s;
+
+}
+
+.contact-btn:hover{
+
+    background:#8A5932;
+
+    color:white;
+
+    transform:translateY(-4px);
+
+}
