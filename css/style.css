@@ -1229,3 +1229,77 @@ grid-template-columns:1fr;
     transform:translateY(-4px);
 
 }
+
+/* ==========================
+   Footer
+========================== */
+
+.footer{
+
+    background:#111827;
+
+    color:white;
+
+    text-align:center;
+
+    padding:70px 0;
+
+}
+
+.footer-logo{
+
+    font-family:"Playfair Display", serif;
+
+    font-size:2.2rem;
+
+    margin-bottom:20px;
+
+}
+
+.footer-text{
+
+    max-width:600px;
+
+    margin:0 auto 30px;
+
+    color:rgba(255,255,255,.75);
+
+    line-height:1.9;
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin-bottom:35px;
+
+}
+
+.footer-social a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-social a:hover{
+
+    color:#D6B37A;
+
+}
+
+.copyright{
+
+    color:rgba(255,255,255,.5);
+
+    font-size:.9rem;
+
+}
