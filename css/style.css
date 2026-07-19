@@ -164,8 +164,7 @@ body{
 }
 
 .about-content{
-    padding-left:50px;
-    max-width:650px;
+    padding-left:60px;
 }
 
 .section-subtitle{
@@ -861,8 +860,6 @@ body{
     margin-bottom:20px;
    text-align:center;
     letter-spacing:1px;
-}
-
 }
 
 /* ==========================
