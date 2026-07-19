@@ -158,9 +158,17 @@ body{
 
 .about-image img{
     width:100%;
+    max-width:360px;
     border-radius:20px;
+    object-fit:cover;
     box-shadow:0 20px 45px rgba(0,0,0,.18);
+    filter:blur(2px);
     transition:all .4s ease;
+}
+
+.about-image img:hover{
+    filter:blur(0);
+    transform:scale(1.02);
 }
 
 .about-image img:hover{
