@@ -156,8 +156,8 @@ body{
     padding:140px 0;
     background-image:
         linear-gradient(
-            rgba(15,20,25,0.72),
-            rgba(15,20,25,0.72)
+            rgba(15,20,25,0.45),
+            rgba(15,20,25,0.45)
         ),
         url("../images/japan-map.jpg");
     background-size:cover;
