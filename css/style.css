@@ -918,6 +918,6 @@ body{
 .about-blend-photo img{
     width:100%;
     display:block;
-    filter:grayscale(35%) contrast(1.05);
-    border-radius:50%;
+    border-radius:16px;
+    box-shadow:0 20px 45px rgba(0,0,0,0.15);
 }
