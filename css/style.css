@@ -204,6 +204,36 @@ body{
     background:#ffffff;
     color:#1a1410;
 }
+.about-section .section-subtitle{
+    font-family:'Alex Brush', cursive;
+    font-size:2.2rem;
+    letter-spacing:1px;
+    color:#e8c9a3;
+    text-transform:none;
+    font-weight:400;
+}
+
+.about-section .about-title,
+.about-section .about-content h2{
+    background:linear-gradient(120deg, #f5ede1 0%, #e8c9a3 50%, #c9975f 100%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-weight:800;
+}
+
+.about-section .about-content p{
+    font-family:'Cormorant Garamond', serif;
+    font-size:1.35rem;
+    line-height:1.85;
+}
+
+.about-section .story-quote{
+    font-family:'Alex Brush', cursive;
+    font-size:2rem;
+    font-style:normal;
+    line-height:1.5;
+}
 .about-image img{
     width:100%;
     border-radius:20px;
