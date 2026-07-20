@@ -495,3 +495,17 @@ footer{
     }
 
 }
+
+.story-divider{
+
+    width:80px;
+
+    height:2px;
+
+    background:#A36A3C;
+
+    margin:70px auto;
+
+    opacity:.4;
+
+}
