@@ -432,3 +432,46 @@ footer{
     color:#7b4d28;
 
 }
+/* ==========================================
+   SCROLL ANIMATIONS
+========================================== */
+
+.story-image,
+.story-quote,
+.travel-notes,
+.blog-content h2,
+.blog-content p{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    animation:fadeUp .8s ease forwards;
+
+}
+
+.story-image{animation-delay:.15s;}
+.blog-content h2{animation-delay:.25s;}
+.blog-content p{animation-delay:.35s;}
+.story-quote{animation-delay:.45s;}
+.travel-notes{animation-delay:.55s;}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
