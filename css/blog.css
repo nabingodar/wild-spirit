@@ -280,14 +280,25 @@ footer{
     margin:60px 0;
 }
 
+.story-image{
+
+    max-width:650px;
+
+    margin:60px auto;
+
+}
+
 .story-image img{
 
     width:100%;
+
+    height:auto;
+
     border-radius:18px;
+
     display:block;
 
-    box-shadow:
-        0 20px 45px rgba(0,0,0,.18);
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
 
     transition:.45s ease;
 
@@ -295,7 +306,7 @@ footer{
 
 .story-image img:hover{
 
-    transform:scale(1.015);
+    transform:scale(1.02);
 
 }
 
@@ -303,7 +314,7 @@ footer{
 
     text-align:center;
 
-    margin-top:14px;
+    margin-top:15px;
 
     font-size:.95rem;
 
