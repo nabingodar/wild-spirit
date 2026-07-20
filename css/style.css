@@ -264,7 +264,7 @@ body{
         #D6B37A,
         #A36A3C
     );
-    transform:translateX(-50%);
+     display:none;
 }
 
 .timeline-item{
