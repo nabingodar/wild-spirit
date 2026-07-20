@@ -161,7 +161,7 @@ body{
         ),
         url("../images/japan-map.jpg");
     background-size:contain;
-    background-position:center center;
+    background-position:left center;
     background-repeat:no-repeat;
     background-attachment:fixed;
    background-color:#0f1419;
