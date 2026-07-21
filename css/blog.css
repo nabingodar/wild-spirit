@@ -31,9 +31,9 @@ body{
 }
 
 .blog-hero img[src*="seven-eleven-hero"]{
-    object-fit:contain;
-    background:#12161b;
+    object-position:center 85%;
 }
+
 
 .hero-overlay{
     position:absolute;
