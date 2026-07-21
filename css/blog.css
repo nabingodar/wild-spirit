@@ -30,6 +30,10 @@ body{
     display:block;
 }
 
+.blog-hero img[src*="seven-eleven-hero"]{
+    object-position:center 90%;
+}
+
 .hero-overlay{
     position:absolute;
     inset:0;
