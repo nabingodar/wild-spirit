@@ -574,3 +574,22 @@ footer{
 .new-beginning-hero img{
     object-position: center 15%;
 }
+.japanese-ending{
+    text-align:center;
+    margin:70px 0 20px;
+}
+
+.japanese-ending .kanji{
+    font-family:"Noto Serif JP", serif;
+    font-size:2rem;
+    letter-spacing:10px;
+    color:#A36A3C;
+    margin-bottom:12px;
+}
+
+.japanese-ending .translation{
+    font-size:0.95rem;
+    color:#888;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
