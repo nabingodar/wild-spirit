@@ -600,3 +600,32 @@ footer{
     letter-spacing:3px;
     text-transform:uppercase;
 }
+.blog-content p:first-of-type::first-letter{
+    font-size:4rem;
+    float:left;
+    line-height:0.9;
+    margin-right:10px;
+    font-family:Playfair Display,serif;
+    color:#b8860b;
+}
+figure{
+
+    margin:70px auto;
+
+}
+
+figure img{
+
+    border-radius:18px;
+
+    transition:.4s;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+
+}
+
+figure img:hover{
+
+    transform:scale(1.02);
+
+}
