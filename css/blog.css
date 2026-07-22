@@ -629,3 +629,33 @@ figure img:hover{
     transform:scale(1.02);
 
 }
+figcaption{
+
+font-size:.9rem;
+
+color:#777;
+
+margin-top:15px;
+
+font-style:italic;
+
+text-align:center;
+
+}
+.blog-content h2{
+
+margin-top:80px;
+
+margin-bottom:25px;
+
+}
+.blog-content p{
+
+margin-bottom:24px;
+
+}
+.blog-content{
+
+max-width:820px;
+
+}
