@@ -233,7 +233,7 @@ body{
 .timeline-item:nth-child(2) .timeline-image{
     aspect-ratio:4/3;
     max-height:none;
-    object-fit:cover;
+    object-fit:contain;
 }
 
 @media(max-width:992px){
