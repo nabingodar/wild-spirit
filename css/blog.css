@@ -221,21 +221,26 @@ footer{
 ========================== */
 
 @media(max-width:768px){
-
     .hero-overlay h1{
-
         font-size:2.5rem;
     }
-
     .blog-hero{
-
         height:55vh;
     }
-
     .blog-content{
-
         margin:50px auto;
     }
+    .story-intro::first-letter{
+        font-size:3rem;
+    }
+    .blog-content img{
+        max-height:260px;
+    }
+    .story-image img{
+        width:100%;
+        max-height:none;
+    }
+}
 .story-intro::first-letter{
         font-size:3rem;
     }
