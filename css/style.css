@@ -264,9 +264,10 @@ body{
 }
 }
 
-@media(max-width:992px){
+@media(max-width:576px){
     .about-content{
         padding-left:0;
+       text-align:left;
     }
 
     .about-content h2{
