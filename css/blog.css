@@ -241,10 +241,7 @@ footer{
         max-height:none;
     }
 }
-.story-intro::first-letter{
-        font-size:3rem;
-    }
-}
+
 /* ==========================================
    PREMIUM STORY LAYOUT
 ========================================== */
