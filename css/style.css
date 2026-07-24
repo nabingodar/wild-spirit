@@ -981,5 +981,83 @@ body{
     object-position: center 70%;
 }
 
+/* ==========================
+   Featured Gallery Image
+========================== */
 
+.gallery-featured{
+    grid-column:1/-1;
+    position:relative;
+    overflow:hidden;
+    border-radius:22px;
+    margin-bottom:35px;
+    box-shadow:0 20px 50px rgba(0,0,0,.18);
+}
+
+.gallery-featured img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    display:block;
+    transition:transform .6s ease;
+}
+
+.gallery-featured:hover img{
+    transform:scale(1.05);
+}
+
+.gallery-featured-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.05)
+    );
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding:40px;
+    color:#fff;
+}
+
+.featured-label{
+    display:inline-block;
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(6px);
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:.82rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:18px;
+}
+
+.gallery-featured h3{
+    font-family:"Playfair Display",serif;
+    font-size:2.4rem;
+    margin-bottom:12px;
+}
+
+.gallery-featured p{
+    font-size:1.05rem;
+    opacity:.92;
+    max-width:520px;
+}
+
+@media(max-width:768px){
+
+.gallery-featured img{
+    height:300px;
+}
+
+.gallery-featured h3{
+    font-size:1.7rem;
+}
+
+.gallery-featured-overlay{
+    padding:25px;
+}
+
+}
 
